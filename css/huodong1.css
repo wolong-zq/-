@@ -1,0 +1,113 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA url(../img/bg-2-5.jpeg) no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: border-bottom .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+
+
+#top,
+#bottom{
+	/* border: 1px solid red; */
+	overflow: hidden;
+	width: 1160px;
+	height: 372px;
+	margin: auto;
+}
+#top{
+	padding-top: 175px;
+}
+#bottom{
+	padding-top: 30px;
+}
+#main span{
+	display: block;
+	width: 570.6px;
+	height: 370.8px;
+	position: relative;
+	float: left;
+	transition: all .5s;
+	cursor: pointer;
+}
+#main #top span:first-of-type{
+	background: url(../img/dn1.png) no-repeat;
+	background-size: cover;
+	margin-right: 15px;
+}
+#main #top span:nth-of-type(2){
+	background: url(../img/dn2.png) no-repeat;
+	background-size: cover;
+}
+#main #bottom span:first-of-type{
+	background: url(../img/dn3.png) no-repeat;
+	background-size: cover;
+	margin-right: 15px;
+}
+#main #bottom span:nth-of-type(2){
+	background: url(../img/dn4.png) no-repeat;
+	background-size: cover;
+}
+#main span p{
+	height: 68px;
+	width: 434px;
+	color: #82552A;
+	font-size: 13px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 3%;
+	left: 20%;
+	transition: all .5s;
+}
+#main span:hover{
+	transform: translateY(-4px);
+	border-bottom:2px solid #3B6081 ;
+}
+#main span:hover p{
+		color:#3B6081 ;
+		text-decoration: underline;
+}

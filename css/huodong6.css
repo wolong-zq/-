@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: all .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+#hailuo{
+	position: absolute;
+	top: 880px;
+	left: 150px;
+}
+#kuang{
+	position: relative;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1750px;
+	height: 852px;
+	background: url(../img/kuang.png) no-repeat;
+	background-size: cover;
+}
+#kuang #mengde,
+#kuang #liyue{
+	width: 1300px;
+	height: 350px;
+	/* border: 1px solid red; */
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#kuang #mengde{
+	top: 100px;
+}
+#kuang #liyue{
+	top: 460px;
+}
+[id^=tu]{
+	height: 300px;
+	width: 520.85px;
+	background: url(../img/lunbo.png) no-repeat;
+	background-size: cover;
+	/* margin-top: 25px; */
+	position: relative;
+	top: 25px;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+#mengde [id^=tu]{
+	transform: rotate(3deg) scale(1.2);
+	left: 50px;
+}
+#liyue [id^=tu]{
+	transform: rotate(-3deg) scale(1.2);
+	left: 730px;
+}
+span{
+	transition: opacity 1.5s; 
+}
+#kuang img{
+	height: 254px;
+	width: 392px;
+	position: absolute;
+	top: 6%;
+	left: 65px;
+}
+#wenzi{
+	width: 600px;
+	height: 350px;
+	/* border: 1px solid red; */
+	position: absolute;
+	top: 0px;
+}
+#wenzi h2{
+	text-align: center;
+	font-size: 45px;
+	padding: 30px 0 40px 0;
+	color: #82552A;
+	font-family: 楷体;
+}
+#wenzi p{
+	text-indent: 2em;
+	font-family:微软雅黑;
+	font-size: 18px;
+	color: #736658;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+#mengde #wenzi{
+	left: 650px;
+}
+#liyue #wenzi{
+	left: 80px;
+}

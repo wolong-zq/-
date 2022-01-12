@@ -1,0 +1,144 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: all .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+#jieshao{
+	width: 196.2px;
+	height: 552.6px;
+	background: url(../img/zhongli.png);
+	background-size: cover;
+	position: absolute;
+	top: 150px;
+	left: 21%;
+}
+#cv{
+	color: #B15F28;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: 600;
+	border: 9px solid #F4CFAD;
+	border-radius: 30px;
+	width: 180px;
+	height: 35px;
+	box-shadow: 2px 2px 5px rgba(117, 39, 0, 0.6);
+	position: absolute;
+	top: 570px;
+	left: 21%;
+	transition: all .5s;
+}
+#cv:hover {
+	color: #fff;
+	background: #B15F28;
+	border: 9px solid #b15e27;
+}
+#pose{
+	width: 977.4px;
+	height: 895.5px;
+	background: url(../img/zl.png);
+	background-size: cover;
+	position: absolute;
+	top: 85px;
+	left: 30%;
+	
+}
+#jieshao,
+#pose{
+	transition: transform .6s;
+}
+#pose:hover,
+#jieshao:hover{
+	transform: translateY(-3px);
+}
+#anniu input:focus{
+	outline: none;
+}
+#anniu input{
+	width: 60px;
+	height: 60px;
+	border: none;
+	padding-left: 5px;
+	position: absolute;
+	top: 700px;
+	cursor: pointer;
+	transition: all .3s;
+}
+#anniu input:nth-of-type(1){
+	background: url(../img/an-zl-1.png.png);
+	background-size: cover;
+	left: 20%;
+}
+#anniu input:nth-of-type(2){
+	background: url(../img/an-yl-1.png.png);
+	background-size: cover;
+	left: 24%;
+}
+#anniu input:nth-of-type(3){
+	background: url(../img/an-yf-1.png);
+	background-size: cover;
+	left: 28%;
+}
+#anniu input:nth-of-type(1):hover{
+	width: 65px;
+	height: 65px;
+	background: url(../img/an-zl-2.png.png);
+	background-size: cover;
+}
+#anniu input:nth-of-type(2):hover{
+	width: 65px;
+	height: 65px;
+	background: url(../img/an-yl-2.png.png.png);
+	background-size: cover;
+}
+#anniu input:nth-of-type(3):hover{
+	width: 65px;
+	height: 65px;
+	background: url(../img/an-yf-2.png.png);
+	background-size: cover;
+}

@@ -1,0 +1,110 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA url(../img/bg-2-6.jpeg) no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: all .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+#main{
+	width: 1300px;
+	height: 700px;
+	border: 8px double #A36A34;
+	border-radius: 30px;
+	position: relative;
+	top: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #F2D7BA url(../img/bg-2-5.jpeg) no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+#main h2{
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	letter-spacing: 10px;
+	font-size: 40px;
+	font-family: 楷体;
+	color: #82552A;
+}
+#main a img{
+	width: 320px;
+	height: 200px;
+	position:absolute ;
+	border: 2px solid #A36A34;
+	border-radius: 30px;
+	transition: all .5s;
+}
+#main a:nth-of-type(1) img{
+	top: 60px;
+	left: 60px;
+}
+#main a:nth-of-type(2) img{
+	top: 60px;
+	left: 487px;
+}
+#main a:nth-of-type(3) img{
+	top: 60px;
+	left: 910px;
+}
+#main a:nth-of-type(4) img{
+	top: 400px;
+	left: 60px;
+}
+#main a:nth-of-type(5) img{
+	top: 400px;
+	left: 487px;
+}
+#main a:nth-of-type(6) img{
+	top: 400px;
+	left: 910px;
+}
+#main a img:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 5px 5px rgba(65, 43, 0, 0.6);
+}

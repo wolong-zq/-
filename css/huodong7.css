@@ -1,0 +1,152 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA url(../img/bg-2-1.jpeg) no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: all .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+#logo img{
+	width: 240px;
+	height: 85px;
+}
+#logo{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#denglu{
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+	height: 600px;
+	border-radius: 30px;
+	/* background: rgba(232,189,160,.6); */
+	background: rgba(255,255,255,.6);
+	box-shadow: 5px 8px 3px rgba(61, 61, 61, 0.6);
+}
+#denglu h2{
+	text-align: center;
+	font-size: 40px;
+	padding: 30px 0 20px 0;
+	letter-spacing: 5px;
+}
+#denglu input{
+	outline: none;
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	border-radius: 30px;
+	transform: translateX(-50%);
+	border: 2px solid gray;
+}
+input[type="tel"],
+input[type="password"]{
+	font-size: 18px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+input[type="tel"]{
+	top: 150px;
+}
+input[type="password"]{
+	top: 260px;
+}
+input[type="submit"]{
+	top: 380px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	color: #FFFFFF;
+	background: #3B4354;
+	cursor: pointer;
+}
+#denglu>a{
+	position: absolute;
+	font-size: 18px;
+	text-decoration: none;
+	color: #808080;
+	top: 450px;
+}
+#wenti{
+	left: 50px;
+}
+#zhuce{
+	right: 50px;
+}
+#denglu p{
+	position: absolute;
+	font-size: 18px;
+	top: 500px;
+	left: 50px;
+	width: 510px;
+	color: #3C4044;
+}
+#denglu p a{
+	text-decoration: none;
+	color: #808080;
+}
+#denglu hr{
+	height: 2px;
+	background: grey;
+}
+/* 验证 */
+#denglu span{
+	font-size: 15px;
+	color: red;
+	position: absolute;
+	left: 75px;
+	display: none;
+}
+input[type="tel"]+span{
+	top: 216px;
+}
+input[type="password"]+span{
+	top: 330px;
+}

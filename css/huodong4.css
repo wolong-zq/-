@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0;list-style: none;}/* border: 1px solid red; */
+body{
+	height: 100%;
+	background: #F2D7BA url(../img/bg-2-3.jpeg) no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+	position: relative;
+}
+#biaoqian img{
+	width: 584px;
+	height: 85.5px;
+}
+#biaoqian {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: all .5s;
+}
+#biaoqian:hover{
+	border-bottom: 6px double #82552A;
+	transform:translatex(-50%) translateY(-3px);
+}
+#qhl a,
+#qhr a{
+	display: block;
+	width: 139.2px;
+	height: 78.3px;
+	position: absolute;
+	top: 490px;
+	opacity: .5;
+	transition: all .5s;
+}
+#qhl a{
+	background: url(../img/qiehuanz.png);
+	background-size: cover;
+	left: 10px;
+}
+#qhr a{
+	background: url(../img/qiehuany.png);
+	background-size: cover;
+	right: 10px;
+}
+#qhl a:hover{
+	background: url(../img/qiehuan1.png);
+	background-size: cover;
+}
+#qhr a:hover{
+	background: url(../img/qiehuan2.png);
+	background-size: cover;
+}
+#lunbo{
+	width: 876.6px;
+	height: 489.6px;
+	background: url(../img/lunbo.png) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	top: 170px;
+	transform: translateX(-50%);
+}
+#lunbo span{
+	transition: 1.5s;
+}
+#lunbo span img{
+	width: 765px;
+	height: 440px;
+	position: absolute;
+	left: 50%;
+	top: 28px;
+	transform: translateX(-50%);
+}
+#anyou input:focus,
+#anzuo input:focus{
+	outline: none;
+}
+#anyou input,
+#anzuo input{
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 400px;
+	border: none;
+	cursor: pointer;
+}
+#anyou input{
+	right: 21%;
+	background: url(../img/ts_right-1.png) no-repeat;
+	background-size: cover;
+}
+#anzuo input{
+	left: 21%;
+	background: url(../img/ts_left-1.png) no-repeat;
+	background-size: cover;
+}
+#anyou input:hover{
+	background: url(../img/ts_right.png) no-repeat;
+	background-size: cover;
+	transform: translateY(-5px);
+}
+#anzuo input:hover{
+	background: url(../img/ts_left.png) no-repeat;
+	background-size: cover;
+	transform: translateY(-5px);
+}
+#xuanchuan {
+	width: 625px;
+	height: 140px;
+	position: absolute;
+	left: 50%;
+	top: 700px;
+	transform: translateX(-50%);
+	/* border: 1px solid red; */
+	overflow: hidden;
+}
+#xuanchuan span a{
+	display: block;
+	width: 154px;
+	height:136px ;
+	float: left;
+	transition: transform .3s;
+}
+#xuanchuan span:hover a{
+	transform: translateY(-2px);
+}
+#xuanchuan span:nth-of-type(1) a{
+	background: url(../img/weibo.png);
+	background-size: cover;
+}
+#xuanchuan span:nth-of-type(2) a{
+	background: url(../img/weixin.png);
+	background-size: cover;
+}
+#xuanchuan span:nth-of-type(3) a{
+	background: url(../img/blli.png);
+	background-size: cover;
+}
+#xuanchuan span:nth-of-type(4) a{
+	background: url(../img/miyoushe.png);
+	background-size: cover;
+}
